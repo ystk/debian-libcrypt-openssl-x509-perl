@@ -1,0 +1,21 @@
+Source: libcrypt-openssl-x509-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7.2.13), libssl-dev, libtest-pod-perl,
+ perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Micah Anderson <micah@debian.org>,
+ gregor herrmann <gregoa@debian.org>, Niko Tyni <ntyni@debian.org>,
+ Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@43-1.org>,
+ Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
+Standards-Version: 3.9.1
+Homepage: http://search.cpan.org/dist/Crypt-OpenSSL-X509/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libcrypt-openssl-x509-perl/
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libcrypt-openssl-x509-perl/
+
+Package: libcrypt-openssl-x509-perl
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Description: Perl extension to OpenSSL's X509 API
+ The Crypt::OpenSSL::X509 module implements a large majority of
+ OpenSSL's useful X509 API.

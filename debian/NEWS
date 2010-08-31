@@ -1,0 +1,12 @@
+libcrypt-openssl-x509-perl (1.2-1) unstable; urgency=low
+
+  This release of libcrypt-openssl-x509-perl contains an incompatible change:
+  It drops the fingerprint_md2 method. From upstream changelog:
+
+  1.2    Mon May 31 05:59:03 PDT 2010
+         - Compatible with OpenSSL v1.0.0
+         - Incompatible change: Removed fingerprint_md2 method.
+         - Fix leaked memory on module END.
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 02 Jun 2010 10:05:16 +0200
+
