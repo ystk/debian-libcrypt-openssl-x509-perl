@@ -4,7 +4,7 @@ Source: http://search.cpan.org/dist/Crypt-OpenSSL-X509/
 Name: Crypt-OpenSSL-X509
 
 Files: *
-Copyright: 2004-2010, Dan Sully, <daniel@cpan.org>
+Copyright: 2004-2011, Dan Sully, <daniel@cpan.org>
 License: Artistic or GPL-1+
 
 Files: inc/Module/*
@@ -19,8 +19,8 @@ Copyright: 2007, Micah Anderson <micah@debian.org>
  2008, Damyan Ivanov <dmn@debian.org>
  2008, Niko Tyni <ntyni@debian.org>
  2008, Roberto C. Sanchez <roberto@debian.org>
- 2010, Ansgar Burchardt <ansgar@43-1.org>
- 2010, Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
+ 2010, Ansgar Burchardt <ansgar@debian.org>
+ 2010, 2011, Salvatore Bonaccorso <carnil@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic

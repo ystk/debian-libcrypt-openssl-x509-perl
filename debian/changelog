@@ -1,3 +1,51 @@
+libcrypt-openssl-x509-perl (1.8.2-1) unstable; urgency=low
+  
+  * New upstream release
+    - Fix warnings under gcc 4.6 (Closes: #625361).
+  * debian/watch: Add upstream version mangle to map new upstream
+    versioning scheme x.y00.z to x.y.z versioning.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 10 May 2011 19:19:52 +0200
+
+libcrypt-openssl-x509-perl (1.8.1-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.9.2 (no changes needed).
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 30 Apr 2011 19:23:23 +0200
+
+libcrypt-openssl-x509-perl (1.7.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: #620534)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 06 Apr 2011 07:47:27 +0200
+
+libcrypt-openssl-x509-perl (1.7-1) unstable; urgency=low
+
+  * New upstream release
+  * Bump Debhelper compat level to 8.
+  * debian/control: Bump versioned Build-Depends on debhelper to (>= 8).
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 31 Mar 2011 10:27:25 +0200
+
+libcrypt-openssl-x509-perl (1.6-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/copyright: update copyright years.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 06 Jan 2011 14:29:26 +0100
+
+libcrypt-openssl-x509-perl (1.5-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Update my email address.
+  * New upstream release
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 26 Dec 2010 20:22:50 +0100
+
 libcrypt-openssl-x509-perl (1.4-1) unstable; urgency=low
 
   * New upstream release
