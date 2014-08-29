@@ -1,17 +1,17 @@
 Source: libcrypt-openssl-x509-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 8), libssl-dev, libtest-pod-perl,
+Build-Depends: debhelper (>= 9.20120312), libssl-dev, libtest-pod-perl,
  perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Micah Anderson <micah@debian.org>,
  gregor herrmann <gregoa@debian.org>, Niko Tyni <ntyni@debian.org>,
  Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@debian.org>,
  Salvatore Bonaccorso <carnil@debian.org>
-Standards-Version: 3.9.2
-Homepage: http://search.cpan.org/dist/Crypt-OpenSSL-X509/
-Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libcrypt-openssl-x509-perl/
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libcrypt-openssl-x509-perl/
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Crypt-OpenSSL-X509/
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libcrypt-openssl-x509-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libcrypt-openssl-x509-perl.git
 
 Package: libcrypt-openssl-x509-perl
 Architecture: any

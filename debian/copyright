@@ -1,16 +1,16 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Maintainer: Dan Sully, <daniel@cpan.org>
-Source: http://search.cpan.org/dist/Crypt-OpenSSL-X509/
-Name: Crypt-OpenSSL-X509
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Crypt-OpenSSL-X509
+Upstream-Contact: Dan Sully, <daniel@cpan.org>
+Source: https://metacpan.org/release/Crypt-OpenSSL-X509/
 
 Files: *
-Copyright: 2004-2011, Dan Sully, <daniel@cpan.org>
+Copyright: 2004-2013, Dan Sully, <daniel@cpan.org>
 License: Artistic or GPL-1+
 
 Files: inc/Module/*
-Copyright: 2002-2010, Adam Kennedy <adamk@cpan.org>
- 2002-2010, Audrey Tang <autrijus@autrijus.org>
- 2002-2010, Brian Ingerson <ingy@cpan.org>
+Copyright: 2002-2012, Adam Kennedy <adamk@cpan.org>
+ 2002-2012, Audrey Tang <autrijus@autrijus.org>
+ 2002-2012, Brian Ingerson <ingy@cpan.org>
 License: Artistic or GPL-1+
 
 Files: debian/*
@@ -20,7 +20,7 @@ Copyright: 2007, Micah Anderson <micah@debian.org>
  2008, Niko Tyni <ntyni@debian.org>
  2008, Roberto C. Sanchez <roberto@debian.org>
  2010, Ansgar Burchardt <ansgar@debian.org>
- 2010, 2011, Salvatore Bonaccorso <carnil@debian.org>
+ 2010-2013, Salvatore Bonaccorso <carnil@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic

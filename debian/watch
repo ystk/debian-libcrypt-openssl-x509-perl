@@ -1,4 +1,4 @@
 # format version number, currently 3; this line is compulsory!
 version=3
-opts=uversionmangle=s/^(\d+)\.(\d)00\.(\d+)$/$1.$2.$3/ \
-http://search.cpan.org/dist/Crypt-OpenSSL-X509/ .*/Crypt-OpenSSL-X509-v?(\d[\d.]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)
+opts=uversionmangle=s/^(\d+)\.(\d)0(\d+)$/$1.$2.$3/ \
+https://metacpan.org/release/Crypt-OpenSSL-X509/ .*/Crypt-OpenSSL-X509-v?(\d[\d.]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)

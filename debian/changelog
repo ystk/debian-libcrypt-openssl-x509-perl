@@ -1,3 +1,37 @@
+libcrypt-openssl-x509-perl (1.8.4-1) unstable; urgency=low
+
+  * Imported Upstream version 1.8.4
+  * Bump Standards-Version to 3.9.5
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 07 Dec 2013 07:54:06 +0100
+
+libcrypt-openssl-x509-perl (1.8.3-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 1.8.3
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Adjust regexp in uversionmangle for debian/watch.
+    Upstream has slightly changed gain the versioning scheme upstream, where
+    the 1.803 tarball corresponds to version 1.8.3.
+  * Update debian/copyright information.
+    Update format to copyright-format 1.0 as released together with Debian
+    policy 3.9.3.
+    Update copyright years for upstream files.
+    Update copyright years for included copy of Module::Install.
+    Update copyright years for debian/* packaging files.
+  * Bump Standards-Version to 3.9.4
+  * Update Debhelper compat level to 9.
+    Adjust versioned Build-Depends on debhelper (>= 9.20120312) to include
+    all relevant build flags for hardening of perl module packages.
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 15 Aug 2013 12:09:00 +0200
+
 libcrypt-openssl-x509-perl (1.8.2-1) unstable; urgency=low
   
   * New upstream release
